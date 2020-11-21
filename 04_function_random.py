@@ -2,4 +2,4 @@
 
 import random
 
-print(random.randint(2,100))
+print(random.randint(1,100))
