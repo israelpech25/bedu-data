@@ -19,8 +19,8 @@ while contador <= elementos:
     
     #Guardar valor aleatorio en la lista
     lista_aleatoria.append(valor)
-    print(valor)
-    print('Contador es menor')
+    ###print(valor)
+    ###print('Contador es menor')
     #sumar valor a contador para la siguiente vuelta
     contador = contador + 1
 
