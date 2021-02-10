@@ -1,11 +1,12 @@
 # Generar una lista con valores aleatorios
 
+import random
 from random import randint
+
 #lista vacia que contendra
 lista_aleatoria = []
 
-elementos = input('Cuantos elementos necesitas?')
-elementos = int(elementos)
+elementos = int(input('Cuantos elementos necesitas?: '))
 
 contador = 1
 
@@ -18,8 +19,8 @@ while contador <= elementos:
     
     #Guardar valor aleatorio en la lista
     lista_aleatoria.append(valor)
-    #print(valor)
-    #print('Contador es menor')
+    print(valor)
+    print('Contador es menor')
     #sumar valor a contador para la siguiente vuelta
     contador = contador + 1
 
